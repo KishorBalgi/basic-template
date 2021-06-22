@@ -76,8 +76,25 @@
   h1 {
     font-size: 3rem;
   }
+  nav {
+    position: fixed;
+    padding: 0 2rem;
+  }
   .nav-links {
     display: none;
+    padding: 2rem 0;
+  }
+  .nav-links li {
+    margin-right: 0;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  nav ul li:hover,
+  nav ul li:active {
+    border-bottom: 0px;
+  }
+  .nav-mobile {
+    display: contents;
   }
 }
 @media only screen and (max-width: 565px) {
